@@ -50,15 +50,24 @@ body {
   height: 687px;
   background-color: bisque;
 }
+.container .header__up {
+  display: flex;
+}
 .container .header__up__title {
   font-family: NeueMachina-Bold;
   font-size: 3.6rem;
   font-weight: 700;
 }
-.container .header nav {
-  height: 64px;
+.container .header__up__nav-list {
+  list-style-type: none;
 }
-.container .header .adv {
+.container .header__up__nav-list__item {
+  background-color: #FF004C;
+}
+.container .header__up__nav-list__link {
+  background-color: orange;
+}
+.container .header__up__adv {
   height: 535px;
 }
 .container main {
