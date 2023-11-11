@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(119, 140, 140);
+
+}
+.container{
+    max-width: 1440px;
+    height: 2230px;
+    background-color: red;
+    margin-left: auto;
+        margin-right: auto;
+
+    header{
+        height: 687px;
+        background-color: bisque;
+
+        nav{
+            height: 64px;
+            background-color: aquamarine;
+        }
+        .adv{
+            background-color: cadetblue;
+            height: 535px;
+        }
+    }
+    main{
+        background-color: blue;
+
+        height: 634px;
+    }
+
+    .cards{
+        background-color: yellow;
+        height: 656px;
+    }
+
+    footer{
+        height: 253px;
+        background-color: black;
+    }
+}
+
+
