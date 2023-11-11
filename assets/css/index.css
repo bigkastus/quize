@@ -1,24 +1,64 @@
+@font-face {
+  font-family: NeueMachina-Ultrabold;
+  src: url("../fonts/NeueMachina-Ultrabold.ttf");
+}
+@font-face {
+  font-family: NeueMachina-Bold;
+  src: url("../fonts/NeueMachina-Bold.ttf");
+}
+@font-face {
+  font-family: Raleway-Medium;
+  src: url("../fonts/Raleway-Medium.ttf");
+}
+@font-face {
+  font-family: Raleway-SemiBold;
+  src: url("../fonts/Raleway-SemiBold.ttf");
+}
+:root {
+  font-size: 10px;
+}
+
+._lock {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+#textdecor {
+  text-decoration: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 body {
   background-color: rgb(119, 140, 140);
 }
 
 .container {
-  max-width: 1440px;
-  height: 2230px;
+  max-width: 144rem;
+  height: 223rem;
   background-color: red;
   margin-left: auto;
   margin-right: auto;
 }
-.container header {
+.container .header {
   height: 687px;
   background-color: bisque;
 }
-.container header nav {
-  height: 64px;
-  background-color: aquamarine;
+.container .header__up__title {
+  font-family: NeueMachina-Bold;
+  font-size: 3.6rem;
+  font-weight: 700;
 }
-.container header .adv {
-  background-color: cadetblue;
+.container .header nav {
+  height: 64px;
+}
+.container .header .adv {
   height: 535px;
 }
 .container main {
