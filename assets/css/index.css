@@ -35,10 +35,6 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: rgb(119, 140, 140);
-}
-
 a {
   color: inherit;
 }
@@ -46,24 +42,27 @@ a {
 .container {
   max-width: 144rem;
   height: 223rem;
-  background-color: red;
   margin-left: auto;
   margin-right: auto;
 }
 .container .header {
   height: 535px;
-  background-color: bisque;
 }
 .container .header__up {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   height: 6.4rem;
+  background-color: #F2F2F2;
+  border-radius: 2.2rem;
 }
 .container .header__up__title {
   font-family: NeueMachina-Bold;
   font-size: 3.6rem;
   font-weight: 700;
+}
+.container .header__up__nav {
+  margin: 0 10rem 0 7.2rem;
 }
 .container .header__up__nav-list {
   list-style-type: none;
@@ -104,7 +103,6 @@ a {
 .container .header__adv {
   position: relative;
   height: 471px;
-  background-color: #FF004C;
 }
 .container .header__adv img {
   height: 36rem;
@@ -123,7 +121,6 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: yellow;
   padding-top: 9.4rem;
 }
 .container .header__adv__title {
@@ -137,6 +134,10 @@ a {
   position: relative;
   font-family: Raleway-Semibold;
   font-size: 2rem;
+  letter-spacing: 0.001rem;
+  max-width: 65rem;
+  text-align: center;
+  margin: 3rem 0;
 }
 .container .header__adv__title-button {
   position: relative;
@@ -155,6 +156,11 @@ a {
   cursor: pointer;
   border: none;
   outline: none;
+  width: 25rem;
+}
+.container .header__adv__title-button:hover {
+  box-shadow: none;
+  background-color: #9E00FF;
 }
 .container main {
   background-color: blue;
