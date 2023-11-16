@@ -27,6 +27,24 @@ $color-gray: #F2F2F2;
     src: url("../fonts/Raleway-SemiBold.ttf");
   }
 
+@mixin button() {
+    background-color: $color-black;
+    font-family: Raleway-Medium;
+    font-size: 2rem;
+    font-weight: 100;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 23rem;
+    height: 4.4rem;
+    border-radius: 1.5rem;
+    transition: 0.15s ease;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
 :root{
     font-size: 10px;
 }
@@ -116,21 +134,7 @@ a{
                 }
             }
             &__button{
-                background-color: $color-black;
-                font-family: Raleway-Medium;
-                font-size: 2rem;
-                font-weight: 100;
-                color: #ffffff;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                width: 23rem;
-                height: 4.4rem;
-                border-radius: 1.5rem;
-                transition: 0.15s ease;
-                cursor: pointer;
-                border: none;
-                outline: none;
+                @include button();
             }
             &__button:hover {
                 box-shadow: none;
@@ -163,9 +167,29 @@ a{
             }
 
             &__center{
-                // display: flex;
-                // flex-direction: row;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
                 background-color: yellow;
+                padding-top: 9.4rem;
+                // margin-top: 9.5rem;
+                // margin-bottom: 10rem;
+            }
+            &__title{
+                position: relative;
+                font-family: NeueMachina-Bold;
+                font-size: 9.6rem;
+                font-weight: 700;
+                z-index: 10;
+                &-subtitle{
+                    position: relative;
+                    font-family: Raleway-Semibold;
+                    font-size: 2rem;
+                }
+                &-button{
+                    position: relative;
+                    @include button();
+                }
             }
         }
 }

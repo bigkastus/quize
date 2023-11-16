@@ -120,7 +120,41 @@ a {
   bottom: 0;
 }
 .container .header__adv__center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: yellow;
+  padding-top: 9.4rem;
+}
+.container .header__adv__title {
+  position: relative;
+  font-family: NeueMachina-Bold;
+  font-size: 9.6rem;
+  font-weight: 700;
+  z-index: 10;
+}
+.container .header__adv__title-subtitle {
+  position: relative;
+  font-family: Raleway-Semibold;
+  font-size: 2rem;
+}
+.container .header__adv__title-button {
+  position: relative;
+  background-color: #000000;
+  font-family: Raleway-Medium;
+  font-size: 2rem;
+  font-weight: 100;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 23rem;
+  height: 4.4rem;
+  border-radius: 1.5rem;
+  transition: 0.15s ease;
+  cursor: pointer;
+  border: none;
+  outline: none;
 }
 .container main {
   background-color: blue;
