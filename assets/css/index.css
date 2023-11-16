@@ -106,6 +106,7 @@ a {
 }
 .container .header__adv img {
   height: 36rem;
+  border-radius: 3rem;
 }
 .container .header__adv__left {
   position: absolute;
