@@ -88,13 +88,13 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 23rem;
   height: 4.4rem;
   border-radius: 1.5rem;
   transition: 0.15s ease;
   cursor: pointer;
   border: none;
   outline: none;
+  width: 23rem;
 }
 .container .header__up__button:hover {
   box-shadow: none;
@@ -150,7 +150,6 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 23rem;
   height: 4.4rem;
   border-radius: 1.5rem;
   transition: 0.15s ease;
@@ -163,8 +162,42 @@ a {
   box-shadow: none;
   background-color: #9E00FF;
 }
+.container .header__emobuttons {
+  background-color: #F0D9FF;
+}
+.container .header__emobuttons__block {
+  margin: 0 auto;
+  display: flex;
+  max-width: 112rem;
+}
+.container .header__emobuttons__block button {
+  background-color: #000000;
+  font-family: Raleway-Medium;
+  font-size: 2rem;
+  font-weight: 100;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4.4rem;
+  border-radius: 1.5rem;
+  transition: 0.15s ease;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: #ffffff;
+  color: #000000;
+  margin: 1rem 1rem;
+  padding: 0 0.8rem;
+}
+.container .header__emobuttons__block button img {
+  margin: 0 1rem;
+}
+.container .header__emobuttons__block button:hover {
+  box-shadow: none;
+  background-color: #9E00FF;
+}
 .container main {
-  background-color: blue;
   height: 634px;
 }
 .container .cards {

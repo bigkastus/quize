@@ -36,7 +36,6 @@ $color-gray: #F2F2F2;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 23rem;
     height: 4.4rem;
     border-radius: 1.5rem;
     transition: 0.15s ease;
@@ -126,6 +125,7 @@ a{
             }
             &__button{
                 @include button();
+                width: 23rem;
             }
             &__button:hover {
                 box-shadow: none;
@@ -191,9 +191,36 @@ a{
                 }
             }
         }
-}
+
+        &__emobuttons{
+            background-color: $color-primary-l2;
+
+            &__block{
+                margin:0 auto;
+                display: flex;
+                max-width: 112rem;
+                button{
+                    @include button();
+                    background-color: #ffffff;
+                    color: $color-black;
+                    margin: 1rem 1rem;
+                    padding: 0 0.8rem;
+                    // width: 23rem;
+                    // height: 4.4rem;
+                    img{
+                        margin: 0 1rem;
+                    }
+
+                }
+                button:hover {
+                    box-shadow: none;
+                    background-color: $color-primary;
+                }
+            }
+        }
+    }
     main{
-        background-color: blue;
+        // background-color: blue;
         height: 634px;
     }
 
