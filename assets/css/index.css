@@ -163,7 +163,8 @@ a {
   background-color: #9E00FF;
 }
 .container .header__emobuttons {
-  background-color: #F0D9FF;
+  background-color: #F9EFFF;
+  height: 15.2rem;
 }
 .container .header__emobuttons__block {
   margin: 0 auto;
@@ -198,7 +199,77 @@ a {
   background-color: #9E00FF;
 }
 .container main {
+  background-color: #F9EFFF;
   height: 634px;
+  margin-top: 15.2rem;
+  display: flex;
+}
+.container main .main__left {
+  width: 27%;
+  height: 10rem;
+  background-color: #000000;
+  border-radius: 2rem;
+  color: #F2F2F2;
+}
+.container main .main__left__question {
+  font-family: Raleway-Semibold;
+  font-size: 1.6rem;
+  font-weight: 900;
+  padding: 1rem 1rem 0 2.6rem;
+  width: 30rem;
+}
+.container main .main__left__answer {
+  font-family: Raleway-Medium;
+  font-size: 1.6rem;
+  padding: 1rem 1rem 0 2.6rem;
+  font-weight: normal;
+}
+.container main .main__right {
+  background-color: green;
+  height: 63.4rem;
+  padding-left: 3rem;
+}
+.container main .main__right h2 {
+  font-family: NeueMachina-bold;
+  font-size: 7.2rem;
+  line-height: 7rem;
+  margin-top: 4rem;
+}
+.container main .main__right__subtitle {
+  font-family: Raleway-Medium;
+  font-size: 2rem;
+  margin-top: 3rem;
+  width: 70rem;
+}
+.container main .main__right__buttonsblock {
+  display: flex;
+}
+.container main .main__right__buttonsblock button {
+  background-color: #000000;
+  font-family: Raleway-Medium;
+  font-size: 2rem;
+  font-weight: 100;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4.4rem;
+  border-radius: 1.5rem;
+  transition: 0.15s ease;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: #ffffff;
+  color: #000000;
+  margin: 1rem 1rem;
+  padding: 0 0.8rem;
+}
+.container main .main__right__buttonsblock button img {
+  margin: 0 1rem;
+}
+.container main .main__right__buttonsblock button:hover {
+  box-shadow: none;
+  background-color: #9E00FF;
 }
 .container .cards {
   background-color: yellow;
