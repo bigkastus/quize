@@ -92,9 +92,9 @@ a {
   border-radius: 1.5rem;
   transition: 0.15s ease;
   cursor: pointer;
-  border: none;
   outline: none;
   width: 23rem;
+  border: none;
 }
 .container .header__up__button:hover {
   box-shadow: none;
@@ -154,9 +154,9 @@ a {
   border-radius: 1.5rem;
   transition: 0.15s ease;
   cursor: pointer;
-  border: none;
   outline: none;
   width: 25rem;
+  border: none;
 }
 .container .header__adv__title-button:hover {
   box-shadow: none;
@@ -184,12 +184,12 @@ a {
   border-radius: 1.5rem;
   transition: 0.15s ease;
   cursor: pointer;
-  border: none;
   outline: none;
   background-color: #ffffff;
   color: #000000;
   margin: 1rem 1rem;
   padding: 0 0.8rem;
+  border: none;
 }
 .container .header__emobuttons__block button img {
   margin: 0 1rem;
@@ -225,7 +225,7 @@ a {
   font-weight: normal;
 }
 .container main .main__right {
-  background-color: green;
+  background-color: #ffffff;
   height: 63.4rem;
   padding-left: 3rem;
 }
@@ -242,7 +242,7 @@ a {
   width: 70rem;
 }
 .container main .main__right__buttonsblock {
-  display: flex;
+  margin: 5rem 0 6rem;
 }
 .container main .main__right__buttonsblock button {
   background-color: #000000;
@@ -257,17 +257,59 @@ a {
   border-radius: 1.5rem;
   transition: 0.15s ease;
   cursor: pointer;
-  border: none;
   outline: none;
   background-color: #ffffff;
   color: #000000;
-  margin: 1rem 1rem;
-  padding: 0 0.8rem;
+  margin: 0.8rem 0 0.3rem;
+  padding: 0 3rem;
+  border-radius: 2.2rem;
+  font-family: Raleway-Medium;
+  font-size: 2.4rem;
 }
 .container main .main__right__buttonsblock button img {
   margin: 0 1rem;
 }
 .container main .main__right__buttonsblock button:hover {
+  box-shadow: none;
+  background-color: #9E00FF;
+}
+.container main .main__right__buttonsblock .close {
+  background-color: #000000;
+  color: #F2F2F2;
+}
+.container main .main__right__buttonsblock .close img {
+  background-color: #ffffff;
+  padding: 0.5rem;
+  border-radius: 50%;
+}
+.container main .main__right__buttonsblock-one {
+  display: flex;
+}
+.container main .main__right__buttonsblock-two {
+  display: flex;
+}
+.container main .main__right__buttonsblock-three {
+  display: flex;
+}
+.container main .main__right__btn {
+  background-color: #000000;
+  font-family: Raleway-Medium;
+  font-size: 2rem;
+  font-weight: 100;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4.4rem;
+  border-radius: 1.5rem;
+  transition: 0.15s ease;
+  cursor: pointer;
+  outline: none;
+  margin: 1rem 1rem 1rem 0;
+  padding: 2.4rem 3rem;
+  border: none;
+}
+.container main .main__right__btn:hover {
   box-shadow: none;
   background-color: #9E00FF;
 }

@@ -40,7 +40,6 @@ $color-gray: #F2F2F2;
     border-radius: 1.5rem;
     transition: 0.15s ease;
     cursor: pointer;
-    border: none;
     outline: none;
 }
 
@@ -126,6 +125,7 @@ a{
             &__button{
                 @include button();
                 width: 23rem;
+                border: none;
             }
             &__button:hover {
                 box-shadow: none;
@@ -184,6 +184,7 @@ a{
                     position: relative;
                     @include button();
                     width: 25rem;
+                    border: none;
                 }
                 &-button:hover {
                     box-shadow: none;
@@ -205,8 +206,7 @@ a{
                     color: $color-black;
                     margin: 1rem 1rem;
                     padding: 0 0.8rem;
-                    // width: 23rem;
-                    // height: 4.4rem;
+                    border: none;
                     img{
                         margin: 0 1rem;
                     }
@@ -225,7 +225,6 @@ a{
         margin-top: 15.2rem;
         display: flex;
         .main{
-
             &__left{
                 width: 27%;
                 height: 10rem;
@@ -248,7 +247,7 @@ a{
                 }
             }
             &__right{
-                background-color: green;
+                background-color: #ffffff;
                 height: 63.4rem;
                 padding-left: 3rem;
                 h2{
@@ -265,24 +264,54 @@ a{
                     width: 70rem;
                 }
                 &__buttonsblock{
-                    display: flex;
+                    margin: 5rem 0 6rem;
                     button{
                         @include button();
                         background-color: #ffffff;
                         color: $color-black;
-                        margin: 1rem 1rem;
-                        padding: 0 0.8rem;
-                        // width: 23rem;
-                        // height: 4.4rem;
+                        margin:0.8rem 0 0.3rem;
+                        padding: 0 3rem;
+                        border-radius: 2.2rem;
+                        font-family: Raleway-Medium;
+                        font-size: 2.4rem;
                         img{
                             margin: 0 1rem;
                         }
-
                     }
                     button:hover {
                         box-shadow: none;
                         background-color: $color-primary;
                     }
+                    .close{
+                        background-color: $color-black;
+                        color: $color-gray;
+                        img{
+                            background-color: #ffffff;
+                            padding: 0.5rem;
+                            border-radius: 50%;
+                        }
+                    }
+                    &-one{
+                        display: flex;
+
+                    }
+                    &-two{
+                        display: flex;
+                    }
+                    &-three{
+                        display: flex;
+                    }
+                }
+
+                &__btn{
+                    @include button();
+                        margin: 1rem 1rem 1rem 0;
+                        padding:2.4rem 3rem;
+                        border: none;
+                }
+                &__btn:hover {
+                    box-shadow: none;
+                    background-color: $color-primary;
                 }
             }
         }
