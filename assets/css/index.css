@@ -228,6 +228,7 @@ a {
   background-color: #ffffff;
   height: 63.4rem;
   padding-left: 3rem;
+  border-radius: 2rem;
 }
 .container main .main__right h2 {
   font-family: NeueMachina-bold;
@@ -314,8 +315,12 @@ a {
   background-color: #9E00FF;
 }
 .container .cards {
-  background-color: yellow;
+  background-color: #F9EFFF;
   height: 656px;
+}
+.container .cards .card {
+  padding: 170px, 8px, 8px, 8px;
+  border-bottom: 3rem;
 }
 .container footer {
   height: 253px;

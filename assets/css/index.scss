@@ -250,6 +250,7 @@ a{
                 background-color: #ffffff;
                 height: 63.4rem;
                 padding-left: 3rem;
+                border-radius: 2rem;
                 h2{
                     font-family: NeueMachina-bold;
                     font-size: 7.2rem;
@@ -322,8 +323,12 @@ a{
 
 
     .cards{
-        background-color: yellow;
+        background-color: $color-primary-l3;
         height: 656px;
+        .card{
+            padding: 170px, 8px, 8px, 8px;
+            border-bottom: 3rem;
+        }
     }
 
     footer{
