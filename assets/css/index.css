@@ -317,16 +317,20 @@ a {
 .container .cards {
   background-color: #F9EFFF;
   height: 656px;
+  padding-top: 10rem;
+  display: flex;
+  max-width: 144rem;
+  overflow: hidden;
 }
 .container .cards .card {
-  max-width: 35.2rem;
+  width: 35.2rem;
   height: 46.4rem;
-  padding: 170px, 8px, 8px, 8px;
   border-bottom: 3rem;
   background: url("../img/Frame3.png");
   border-radius: 2rem;
   z-index: 5;
   position: relative;
+  margin: 1rem;
 }
 .container .cards .card__content {
   display: flex;

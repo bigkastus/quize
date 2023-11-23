@@ -316,25 +316,24 @@ a{
                 }
             }
         }
-
-
-
     }
-
 
     .cards{
         background-color: $color-primary-l3;
         height: 656px;
+        padding-top: 10rem;
+        display: flex;
+        max-width: 144rem;
+        overflow: hidden;
         .card{
-            max-width: 35.2rem;
+            width: 35.2rem;
             height: 46.4rem;
-            padding: 170px, 8px, 8px, 8px;
             border-bottom: 3rem;
             background: url('../img/Frame3.png');
-            // background-color: #9E00FF;
             border-radius: 2rem;
             z-index: 5;
             position: relative;
+            margin: 1rem;
 
             &__content{
                 display: flex;
@@ -346,22 +345,16 @@ a{
                     position: relative;
                     width: 100%;
                     &-ava{
-                        // display: flex;
-                        // justify-content: center;
                         background-color: #ffffff;
                         padding: 1rem;
                         border-radius: 50%;
-                        // position: absolute;
-                        // right: 0;
                         margin: auto;
                         display: block;
                         img{
                             border-radius: 50%;
-
                         }
                     }
                     &-avaback{
-                        // display: flex;
                         background-color: #ffffff;
                         height: 4rem;
                         width: 100%;
@@ -385,11 +378,9 @@ a{
                         text-align: start;
                         font-family: Raleway-Medium;
                         font-size: 1.6rem;
-                        // background-color: #FF004C;
                         padding: 2rem;
                     }
                 }
-
             }
         }
     }
