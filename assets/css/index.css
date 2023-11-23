@@ -319,8 +319,60 @@ a {
   height: 656px;
 }
 .container .cards .card {
+  max-width: 35.2rem;
+  height: 46.4rem;
   padding: 170px, 8px, 8px, 8px;
   border-bottom: 3rem;
+  background: url("../img/Frame3.png");
+  border-radius: 2rem;
+  z-index: 5;
+  position: relative;
+}
+.container .cards .card__content {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 0;
+}
+.container .cards .card__content__container {
+  display: flex;
+  position: relative;
+  width: 100%;
+}
+.container .cards .card__content__container-ava {
+  background-color: #ffffff;
+  padding: 1rem;
+  border-radius: 50%;
+  margin: auto;
+  display: block;
+}
+.container .cards .card__content__container-ava img {
+  border-radius: 50%;
+}
+.container .cards .card__content__container-avaback {
+  background-color: #ffffff;
+  height: 4rem;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  bottom: 0;
+  border-radius: 2rem 2rem 0 0;
+}
+.container .cards .card__content-info {
+  align-self: center;
+  background-color: #ffffff;
+  border-radius: 0 0 2rem 2rem;
+}
+.container .cards .card__content-info-title {
+  text-align: center;
+  font-family: Raleway-Semibold;
+  font-size: 2.4rem;
+}
+.container .cards .card__content-info-subtitle {
+  text-align: start;
+  font-family: Raleway-Medium;
+  font-size: 1.6rem;
+  padding: 2rem;
 }
 .container footer {
   height: 253px;
