@@ -317,26 +317,28 @@ a {
 .container .cards {
   background-color: #F9EFFF;
   height: 656px;
-  padding-top: 10rem;
+  padding-top: 9rem;
   display: flex;
   max-width: 144rem;
+  justify-content: center;
   overflow: hidden;
 }
 .container .cards .card {
   width: 35.2rem;
   height: 46.4rem;
-  border-bottom: 3rem;
+  flex-shrink: 0;
   background: url("../img/Frame3.png");
   border-radius: 2rem;
   z-index: 5;
   position: relative;
-  margin: 1rem;
+  margin: 0.5rem;
 }
 .container .cards .card__content {
   display: flex;
   flex-direction: column;
   position: absolute;
   bottom: 0;
+  padding: 1rem;
 }
 .container .cards .card__content__container {
   display: flex;

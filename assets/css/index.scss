@@ -321,25 +321,28 @@ a{
     .cards{
         background-color: $color-primary-l3;
         height: 656px;
-        padding-top: 10rem;
+        padding-top: 9rem;
         display: flex;
         max-width: 144rem;
+        justify-content: center;
         overflow: hidden;
         .card{
             width: 35.2rem;
             height: 46.4rem;
-            border-bottom: 3rem;
+            flex-shrink: 0;
+            // border-bottom: 3rem;
             background: url('../img/Frame3.png');
             border-radius: 2rem;
             z-index: 5;
             position: relative;
-            margin: 1rem;
+            margin: 0.5rem;
 
             &__content{
                 display: flex;
                 flex-direction: column;
                 position: absolute;
                 bottom: 0;
+                padding: 1rem;
                 &__container{
                     display: flex;
                     position: relative;
