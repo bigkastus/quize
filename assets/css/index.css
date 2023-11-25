@@ -384,7 +384,53 @@ a {
   padding: 2rem;
   width: 100%;
 }
-.container footer {
+.container .footer {
   height: 253px;
   background-color: black;
+  border-radius: 3rem 3rem 0 0;
+  color: #ffffff;
+}
+.container .footer__contacts {
+  display: flex;
+}
+.container .footer__contacts__tel {
+  font-family: NeueMachina-Bold;
+  font-weight: 100;
+  font-size: 4.8rem;
+  text-decoration: underline;
+  padding: 3rem 2rem 3rem 5rem;
+}
+.container .footer__contacts__tel-title {
+  font-family: Raleway-Semibold;
+  font-weight: 500;
+  font-size: 2rem;
+}
+.container .footer__contacts__email {
+  font-family: NeueMachina-Bold;
+  font-weight: 100;
+  font-size: 4.8rem;
+  text-decoration: underline;
+  padding: 3rem 2rem 3rem 2.4rem;
+}
+.container .footer__contacts__email-title {
+  font-family: Raleway-Semibold;
+  font-weight: 500;
+  font-size: 2rem;
+}
+.container .footer__social {
+  font-family: NeueMachina-Bold;
+  font-size: 3.6rem;
+  padding-left: 4rem;
+  border-radius: 3px;
+}
+.container .footer__social button {
+  background-color: #000000;
+  border-radius: 6rem;
+}
+.container .footer__social button:nth-child(3) {
+  margin-right: 7rem;
+}
+.container .footer__social button:hover {
+  cursor: pointer;
+  opacity: 0.5;
 }/*# sourceMappingURL=index.css.map */

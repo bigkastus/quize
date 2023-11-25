@@ -402,9 +402,61 @@ a{
         }
     }
 
-    footer{
+    .footer{
         height: 253px;
         background-color: black;
+        border-radius: 3rem 3rem 0 0;
+
+        color: #ffffff;
+        &__contacts{
+            display: flex;
+            // justify-content: space-evenly;
+            &__tel{
+                &-title{
+                    font-family: Raleway-Semibold;
+                    font-weight: 500;
+                    font-size: 2rem;
+                }
+                font-family: NeueMachina-Bold;
+                font-weight: 100;
+                font-size: 4.8rem;
+                text-decoration: underline  ;
+                padding: 3rem 2rem 3rem 5rem;
+            }
+            &__email{
+                &-title{
+                    font-family: Raleway-Semibold;
+                    font-weight: 500;
+                    font-size: 2rem;
+                }
+                font-family: NeueMachina-Bold;
+                font-weight: 100;
+                font-size: 4.8rem;
+                text-decoration: underline;
+                padding: 3rem 2rem 3rem 2.4rem;
+            }
+        }
+
+        &__social{
+            font-family: NeueMachina-Bold;
+            // font-weight: 100;
+            font-size: 3.6rem;
+            padding-left: 4rem;
+            border-radius: 3px;
+            button{
+                background-color: $color-black;
+                border-radius: 6rem;
+                // margin: 0 0 0 3rem;
+            }
+            button:nth-child(3){
+                margin-right: 7rem;
+            }
+            button:hover{
+                cursor: pointer;
+                opacity: 0.5;
+            }
+        }
+
     }
 }
 
