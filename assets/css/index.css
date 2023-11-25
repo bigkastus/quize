@@ -322,6 +322,30 @@ a {
   max-width: 144rem;
   justify-content: center;
   overflow: hidden;
+  position: relative;
+}
+.container .cards button {
+  position: absolute;
+  width: 10rem;
+  height: 10rem;
+  font-family: Raleway-Medium;
+  font-size: 9rem;
+  font-weight: 300;
+  background-color: #ffffff;
+  z-index: 15;
+  top: calc((100% - 10rem) / 2);
+  border-radius: 25%;
+  border-color: #ffffff;
+  box-shadow: 0px 2rem 1rem rgba(85, 103, 158, 0.3);
+}
+.container .cards button p {
+  margin-top: -2rem;
+}
+.container .cards .left {
+  left: 3rem;
+}
+.container .cards .right {
+  right: 3rem;
 }
 .container .cards .card {
   display: flex;
