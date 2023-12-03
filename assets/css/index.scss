@@ -325,9 +325,9 @@ a{
         display: flex;
         max-width: 144rem;
         justify-content: center;
-        overflow: hidden;
+        // overflow: hidden;
         position:relative;
-
+        // transition: all ease 1s;
         button{
             position: absolute;
             width: 10rem;
@@ -363,6 +363,7 @@ a{
             z-index: 5;
             position: relative;
             margin: 0.5rem;
+            transition: all ease 2s;
 
             &__content{
                 display: flex;

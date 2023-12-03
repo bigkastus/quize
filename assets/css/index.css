@@ -321,7 +321,6 @@ a {
   display: flex;
   max-width: 144rem;
   justify-content: center;
-  overflow: hidden;
   position: relative;
 }
 .container .cards button {
@@ -357,6 +356,7 @@ a {
   z-index: 5;
   position: relative;
   margin: 0.5rem;
+  transition: all ease 2s;
 }
 .container .cards .card__content {
   display: flex;
